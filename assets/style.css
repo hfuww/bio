@@ -98,21 +98,21 @@ header .nav-link:hover {
   transform: scale(1.05);
 }
 
-/* Khusus ukuran foto profil */
+/* profil picture */
 .profile-image {
   width: 200px;
   height: 200px;
   object-fit: cover;
 }
 
-/* Khusus gambar About Me */
+/* about me */
 .about-image {
   width: 220px;
   height: 220px;
   object-fit: cover;
 }
 
-/* Teks About Me */
+/* Text About Me */
 .about-text {
   font-size: 18px;
   line-height: 1.7;
@@ -331,7 +331,7 @@ body.dark-mode .timeline-item p {
   border-radius: 50%;
 }
 
-/* Saat aktif (dark mode) */
+/* darkmode */
 input:checked + .slider {
   background-color: var(--accent);
 }
@@ -339,4 +339,5 @@ input:checked + .slider {
 input:checked + .slider::before {
   transform: translateX(26px);
 }
+
 
